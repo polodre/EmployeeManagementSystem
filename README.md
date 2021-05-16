@@ -37,3 +37,7 @@ The application will be invoked with the following command: node app.js
 ## Video
 
 - [Video](https://vimeo.com/550032584/abe4f02628)
+
+## Deployed App
+
+- [Deployed App](https://polodre.github.io/EmployeeManagementSystem/)
