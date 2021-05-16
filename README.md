@@ -10,7 +10,7 @@ install the required packages via "npm install" in the root directory
 
 ## Working App Screen Shots
 
-![Picture1](assets/scts.png)
+![Picture1](./assets/scts.png)
 
 ## Usage
 
