@@ -33,3 +33,7 @@ The application will be invoked with the following command: node app.js
 ## Repository
 
 - [GitHub Repo](https://github.com/polodre/EmployeeManagementSystem)
+
+# Video
+
+- [Video](https://vimeo.com/550032584/abe4f02628)
