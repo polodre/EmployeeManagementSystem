@@ -1,26 +1,31 @@
 {
   "name": "employeemanagementsystem",
   "version": "1.0.0",
-  "description": "",
-  "main": "apps.js",
+  "description": "employee management system week 12",
+  "main": "app.js",
   "directories": {
     "lib": "lib"
   },
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1",
+    "require": "^2.4.20"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "no test specified"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/polodre/EmployeeManagementSystem.git"
   },
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "git"
+  ],
+  "author": "Andre Lucas",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/polodre/EmployeeManagementSystem/issues"
   },
-  "homepage": "https://github.com/polodre/EmployeeManagementSystem#readme",
-  "dependencies": {
-    "inquirer": "^8.0.0",
-    "mysql": "^2.18.1"
-  }
+  "homepage": "https://github.com/polodre/EmployeeManagementSystem#readme"
 }
