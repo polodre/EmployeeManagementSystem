@@ -8,10 +8,6 @@ Architect and build a solution for managing a company's employees using node, in
 
 install the required packages via "npm install" in the root directory
 
-## Working App Screen Shots
-
-![Picture1](./assets/scts.png)
-
 ## Usage
 
 This command-line application allows the user to:
