@@ -1,0 +1,26 @@
+{
+  "name": "employeemanagementsystem",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apps.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/polodre/EmployeeManagementSystem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/polodre/EmployeeManagementSystem/issues"
+  },
+  "homepage": "https://github.com/polodre/EmployeeManagementSystem#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0",
+    "mysql": "^2.18.1"
+  }
+}
