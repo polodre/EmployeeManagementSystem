@@ -1,49 +1,106 @@
-use employee_db;
-insert into department (name) values 
-("Human Resources"),
-("IT"),
-("Sales"),
-("Accounting"),
-("Logistics"),
-("Customer Service"),
-("Recruiting"),
-("Upper Management"),
-("Payroll");
+USE employee_db;
 
-insert into role (title, salary, department_id) values
-("Receptionist", 40000, 6),
-("IT Manager",65000,2),
-("Database Admin",65000,2),
-("Recruitment Specialist",60000,7),
-("Work Force Coordinator",50000,5),
-("CSR",45000,6),
-("Payroll Administrator",55000,9),
-("Office Culture Manager",65000,1),
-("Fulfillment Director", 70000, 3),
-("President of Sales",115000,3),
-("Accounts Receivable Analyst",60000,4),
-("Accounts Payable Analyst",60000,4),
-("Project Accountant",80000,4),
-("Senior Accountant",90000,4),
-("Prodcut Specialist", 66000,2),
-("Dispatcher",55000,5),
-("Full Stack Developer",90000, 2),
-("CEO", 200000, 8),
-("COO",190000,8),
-("CTO",185000,8); 
+INSERT INTO department(dept_name)
+VALUES 
+('Competitor Benchmarking'),
+('Information Technology'),
+('Computer Engineering'),
+('Electrical Engineering'),
+('Chemical Engineering'),
+('Mechanical Engineering'),
+('User Interface Design'),
+('Supply Chain Mgmt Logistics'),
+('Credit & Finance'),
+('Marketing & Sales'),
+('Warranty Legal'),
+('Intellectual Property'),
+('Human Resources');
 
-insert into employee (first_name, last_name, role_id, manager_id) values
-("Annora", "Merrit",20,null),
-("Anissa","Escarcega",18,null),
-("Ikram", "Barzetti",19,null),
-("Belenos","Schnieder",2,1),
-("Eva","Assenberg",1,2),
-("Mathias","Lowry",5,null),
-("Joaquin","Jokinen",6,null),
-("Kalman","Ventura",7,null),
-("Yadira","Robert",8,null),
-("Kamryn","Kinley",17,1),
-("Apollonia","Choudhary",11,13),
-("Crispus","Kovac",11,13),
-("Astra","Pavic",13,2),
-("Heli","Muller",15,4);
+INSERT INTO roles(title, salary, department_id)
+VALUES
+('Web Development Manager', 90000, 2),
+('Web Dev Frontend', 90000, 2),
+('Web Dev Backend', 90000, 2),
+
+('Database Admin Manager', 90000, 2),
+('Database Administrator', 90000, 2),
+('Database Architect Lead', 90000, 2),
+('Database Frontend Dev', 90000, 2),
+('Database Backend', 90000, 2),
+
+('Software Engineeing Manager', 90000, 3),
+('Sr. Software Developer', 90000, 3),
+('Jr. Software Developer', 90000, 3),
+
+('Computer Engineeing Manager', 90000, 3),
+('Computer Hardware Developer', 90000, 3),
+('Computer Middleware Developer', 90000, 3),
+
+('Chief Electrical Engineer', 150000, 4),
+('Electrical Engineer Manager', 150000, 4),
+('Electrical Engineer', 90000, 4),
+
+('Chief Chemical Engineer', 150000, 5),
+('Chemical Engineer Manager', 150000, 5),
+('Chemical Engineer', 90000, 5),
+
+('Chief Mechanincal Engineer', 150000, 6),
+('Mechanincal Engineer Manager', 150000, 6),
+('Mechanincal Engineer', 90000, 6),
+
+('Chief Industrial Engineer', 150000, 8),
+('Industrial Engineer Manager', 150000, 8),
+('Industrial Engineer', 90000, 8),
+
+('Chief Accountant', 170000, 9),
+('Accounting Manager', 70000, 9),
+('Sr. Accountant', 70000, 9),
+('Jr. Accountant', 70000, 9),
+
+('Chief Financial Analyst', 170000, 9),
+('Financial Analyst Manager', 170000, 9),
+('Sr. Financial Analyst', 70000, 9),
+('Jr. Financial Analyst', 70000, 9),
+
+('Chief Budget Analyst', 170000, 9),
+('Budget Analyst Manager', 70000, 9),
+('Sr. Budget Analyst', 70000, 9), 
+('Jr. Budget Analyst', 70000, 9),
+
+('Chief of Marketing', 70000, 10),
+('Marketing Manager', 70000, 10),
+('Sr. Market Specialist', 70000, 10), 
+('Jr. Market Specialist', 70000, 10),
+('Sr. Marketing Strategist', 70000, 10), 
+('Jr. Marketing Strategist', 70000, 10),
+
+('IR Chief Council', 50000, 9),
+('IR Council', 50000, 9),
+('IR Paralegal', 50000, 9),
+
+('Warranty Chief Council', 50000, 11),
+('Warranty Council', 50000, 11),
+('warranty Paralegal', 50000, 11),
+
+('IP Chief Council', 50000, 12),
+('IP Council', 50000, 12),
+('IP Paralegal', 50000, 12),
+
+('Discovery Chief Council', 50000, 12),
+('Discovery Council', 50000, 12),
+('Discovery Paralegal', 50000, 12),
+
+('HR Chief Council', 50000, 13),
+('HR Council', 50000, 13),
+('HR Paralegal', 50000, 13);
+
+
+INSERT INTO employees(first_name, last_name, role_id, manager_id)
+VALUES 
+('Sebatian', 'Arrazola', 4, 0),
+('Jimena', 'Alvarez', 1, 0),
+('Maria', 'Pulido', 57, 0),
+('Guillermo', 'Arrazola', 35, 0),
+('Gaby', 'Arrazola', 58, 3),
+('David', 'Arrazola', 54, 0),
+('Nock', 'Arrazola', 12, 0);
